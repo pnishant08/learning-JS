@@ -2,5 +2,8 @@ const accId=143
 let accmail="nishant@gmail.com"
 var accPass="12345"
 cityname="ghaziabad"
-
-console.table([accmail,accId])
+let nameof
+/*
+dont use var because it block scope resolution
+*/
+console.table([accmail,accId,cityname,nameof])
