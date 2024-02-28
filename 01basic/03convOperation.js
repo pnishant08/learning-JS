@@ -33,5 +33,41 @@ let booleanIsLoggedIn=Boolean(isLoggedIn)
 
 let somenumber=33;
 let stringNumber=String(somenumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+//console.log(typeof stringNumber)
+
+
+//***********operations*********//
+
+let value =3
+let negvalue=-value
+// console.log(negvalue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2**3)
+
+//ab neeche wale jitne bhi hai usme echma ke hisaab se hota hai
+
+
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+2+2)
+// console.log(1+2+"2")
+
+
+
+//code ko acche se likhe parenthesis
+//agr string 1st hai to sare string agr last hai to pehle wale number treat honge
+
+
+
+// console.log(+true)
+//+""isko likhne se bhi bool ho jata hai
+
+
+//increment operator loke prefix or postfix precedence
+
+
