@@ -1,2 +1,2 @@
 # learning-JS
-learning js with yputube
+learning js with youtube
