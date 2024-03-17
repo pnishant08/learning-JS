@@ -34,5 +34,11 @@ jsUser.email=("ankitsingh5002@gmail.com")
 jsUser.greeting=function(){
     console.log("hello js user")
 }
-console.log(jsUser.greeting)
+console.log(jsUser.greeting)//function execute nhi hua uska reference aya hai
 console.log(jsUser.greeting())
+
+
+jsUser.greetingtwo=function(){
+    console.log(`hello js user,${this.name}`)
+}
+console.log(jsUser.greetingtwo())//undefined aata hai apne aap
