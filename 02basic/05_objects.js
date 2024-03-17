@@ -1,0 +1,2 @@
+//destructuring hoti hai sabki
+
