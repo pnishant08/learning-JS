@@ -60,13 +60,26 @@ function calculateCartPrice(val1,val2,...num1){//rest operator and spread operat
 
 //jab val1 daal rha aur val2 daal rha hu to ye apne aap do value usme le rha aur baki sare nums me ja rha hai
 
-const user={
-    username:"nishant",
-    price:2000
-}
+// const user={
+//     username:"nishant",
+//     price:2000
+// }
 
 function handleObject(anyobject){
     console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
 }
 
-handleObject(user);
+//handleObject(user); 
+
+handleObject({
+    username:"amit",
+    price:199
+})
+
+const myNewArray=[200,300,400,500]
+
+function returnSecondValue(getarray){
+    return getarray[1];
+}
+console.log(returnSecondValue(myNewArray))
+
