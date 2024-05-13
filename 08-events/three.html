@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Chai Aur Javascript </h1>
+    <button id="stop">Stop</button>
+    <button id="start">Start</button>
+
+</body>
+   <script>
+    const sayDate=function(str){
+        console.log(str,Date.now())
+    }
+    let interValid=setInterval(sayDate,2000,"HI")
+
+    const clearMe=clearInterval(interValid)
+
+    document.querySelector('#start').addEventListener('click',function(){
+        interValid=setInterval(sayDate,1000,"HI")
+    })
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(interValid)
+    })
+   </script>
+</html>
